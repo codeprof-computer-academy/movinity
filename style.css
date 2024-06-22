@@ -22,7 +22,10 @@ header{
     background-image: url("banner.jpg");
     background-size: cover;
     background-position: center center;
-    
+    animation: changing-bg;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    transition: 2s;
 }
 
 header h3{
@@ -332,3 +335,39 @@ form button:hover{
     font-size: 20px;
 }
 
+
+footer {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer p {
+    font-size: 10px;
+}
+
+/* key frames for the animation */
+@keyframes changing-bg{
+    0%{
+        background-image: url("banner2.jpg");
+    }
+
+    25%{
+          background-image: url("banner3.jpg");
+    }
+
+    50%{
+           background-image: url("banner4.jpg");
+    }
+
+    75%{
+          background-image: url("banner.jpg");
+    }
+
+    100%{
+          background-image: url("img7.jpg");
+    }
+}
