@@ -1,0 +1,162 @@
+@media(max-width:450px){
+
+   
+    
+        header {
+          
+            height: fit-content;
+            align-items: center;
+            gap:100px;
+            background-repeat: no-repeat;
+    
+        }
+    
+        header h3 {
+            font-weight: bold;
+            margin-left: 0;
+            font-size: 14px;
+        }
+    
+        header span {
+           
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: calc(100% - 40px);
+            margin-left: 20px;
+       
+        }
+
+    
+        header nav {
+            padding: 20px;
+        }
+    
+        nav a {
+        
+            font-size: 14px;
+        }
+
+        nav .hide{
+            display: none;
+        }
+    
+    
+    
+        #trending-movies h1 {
+            font-size: 40px;
+        
+        }
+    
+        #trending-movies article {
+            width: 100%;
+            gap: 30px;
+        
+        }
+    
+        .top {
+            gap: 30px;
+        }
+    
+        .top img {
+            width: 100px;
+            height: 80px;
+         
+        }
+    
+        .bottom {
+           
+            gap: 30px;
+        }
+    
+        .bottom>img {
+            width: 230px;
+            height: 190px;
+          
+        }
+    
+        .bottom span {
+           
+            gap: 30px;
+        }
+    
+        .bottom span img {
+            width: 100px;
+            height: 80px;
+       
+        }
+    
+    
+        #account {
+      
+            padding: 0px;
+         
+        }
+    
+        #account h1 {
+            font-size: 40px;
+     
+        }
+    
+        #account form {
+            width: 100%;
+            padding: 30px;
+          
+        }
+    
+        #movie-gallery {
+            padding: 40px;
+          
+        }
+    
+        #movie-gallery h1 {
+            font-size: 40px;
+        
+        }
+    
+        #movie-gallery article {
+            gap: 30px;
+           width: 100%;
+        }
+    
+        #movie-gallery article div {
+            
+            gap: 20px;
+        }
+    
+        #movie-gallery article div img {
+            width: 100px;
+            height: 80px;
+      
+        }
+    
+    
+    #contact-us{
+           padding: 30px;
+           gap:50px
+    }
+    
+        #contact-us h1 {
+            font-size: 40px;
+        }
+    
+        #contact-us p {
+            width: 100%;
+            padding: 40px;
+           
+        }
+
+
+        footer{
+            width: 100%;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        footer p{
+            font-size: 10px;
+        }
+
+}
